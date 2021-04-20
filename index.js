@@ -1,4 +1,6 @@
 import express from 'express';
+import apiRouter from './routes/apiRouter';
+
 const app = express();
 
 const PORT = 4000;
